@@ -1,0 +1,8 @@
+geometry_msgs/Pose goal_pose
+int8 block_type
+---
+geometry_msgs/Pose end_pose
+bool success
+---
+geometry_msgs/Pose curr_pose
+bool block_captured
