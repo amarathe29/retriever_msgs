@@ -1,2 +1,3 @@
 geometry_msgs/Pose pose
-bool in_frame
+bool tag_in_frame
+bool block_in_frame
