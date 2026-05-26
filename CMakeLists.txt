@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/PoseStatus.msg"
   "action/GoToBlock.action"
   DEPENDENCIES geometry_msgs
 )
