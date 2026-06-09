@@ -1,3 +1,4 @@
 geometry_msgs/PoseStamped pose
 bool tag_in_frame
 bool block_in_frame
+uint8 type
